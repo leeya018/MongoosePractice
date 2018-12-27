@@ -1,0 +1,33 @@
+{
+  "name": "mongoosepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --watch",
+    "start": "nodemon run ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/leeyahav018/mongoosepractice.git"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.5",
+    "body": "^5.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/leeyahav018/mongoosepractice/issues"
+  },
+  "homepage": "https://gitlab.com/leeyahav018/mongoosepractice#readme"
+}
